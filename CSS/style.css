@@ -90,6 +90,12 @@ main {
   justify-content: space-around;
 }
 
+.content {
+  justify-self: flex-end;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+}
 .intro h2 {
   font-size: 7em;
   font-family: fantasy;
@@ -98,12 +104,6 @@ main {
 
 }
 
-.content {
-  justify-self: flex-end;
-  display: flex;
-  align-items: flex-end;
-  flex-direction: column;
-}
 .content h2:hover {
   transition: all ease-out 0.2s;
   -webkit-text-stroke: 1px black;
