@@ -121,7 +121,7 @@ main {
 /*TODO: image hover effect (.INTRO .IMAGE)*/
 
 .image {
-  height: 40rem;
+  height: 40em;
   width: 200em;
   position: relative;
   background: url(../Assets/pexels-pixabay-237272.jpg);
