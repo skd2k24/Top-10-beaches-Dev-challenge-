@@ -91,9 +91,11 @@ main {
 }
 
 .intro h2 {
-  font-size: 9em;
+  font-size: 7em;
   font-family: fantasy;
   margin-top: 3%;
+  align-self: flex-start;
+
 }
 
 .content {
