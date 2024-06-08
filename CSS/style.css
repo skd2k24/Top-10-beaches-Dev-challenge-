@@ -191,7 +191,8 @@ main {
   color: black;
   font-family: fantasy;
   font-size: 6em;
-  overflow-x: hidden;
+  width: 20vw;
+  /* overflow-x: hidden; */
   position: sticky;
   top: 30%;
   z-index: 15;
