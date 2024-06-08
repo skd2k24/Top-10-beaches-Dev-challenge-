@@ -503,6 +503,7 @@ li:nth-child(even) {
   .content_box h2 {
     z-index: 11;
     font-size: 4vh;
+    width: 100vw;
     top: 2%;
   }
   .intro {
