@@ -310,7 +310,7 @@ li:first-child {
 /** LAST LIST ITEM */
 
 li:last-child {
-  transform: translateY(-20px);
+  /* transform: translateY(-20px); */
 }
 
 /* TODO: RIGHT ANIMATION  */
@@ -464,12 +464,13 @@ li:nth-child(even) {
 
 /*TODO: for mobiles Done */
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 414px) and (min-width:365px) {
   header h1 {
     width: 300px;
     font-size: 5vh;
   }
 }
+
 
 @media only screen and (max-width: 638px) {
   body {
@@ -510,7 +511,8 @@ li:nth-child(even) {
     flex-direction: column;
   }
   li:last-child {
-    margin-bottom: 0;
+    /* margin-bottom: 2em; */
+    /* transform: translateY(2em); */
   }
   .ListScrollAnimation {
     flex-direction: column;
@@ -535,6 +537,13 @@ li:nth-child(even) {
   }
   .right img {
     box-shadow: 130px -175px 0px 40px rgba(124, 124, 124, 0.59);
+  }
+}
+
+@media only screen and (max-width: 365px) {
+  header h1 {
+    width: 300px;
+    font-size: 12vw;
   }
 }
 /*TODO: devices having screen size more tham a mobile but less than a tablet  */
@@ -626,7 +635,7 @@ li:nth-child(even) {
 
 /*TODO: for tablets  */
 
-@media only screen and (max-width: 1300px) and (min-width: 1212px) {
+/* @media only screen and (max-width: 1300px) and (min-width: 1212px) {
   li:last-child {
     transform: translateY(0);
   }
@@ -664,6 +673,6 @@ li:nth-child(even) {
   }
   .right img {
     box-shadow: 130px -175px 0px 40px rgba(124, 124, 124, 0.59);
-    /*  */
-  }
-}
+  
+  /* } */
+/* } */ 
