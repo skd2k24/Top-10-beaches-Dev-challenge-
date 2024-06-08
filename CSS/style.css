@@ -622,7 +622,7 @@ li:nth-child(even) {
 
 /*TODO: for tablets  */
 
-@media only screen and (max-width: 1646px) and (min-width: 1212px) {
+@media only screen and (max-width: 1500px) and (min-width: 1212px) {
   li:last-child {
     transform: translateY(0);
   }
